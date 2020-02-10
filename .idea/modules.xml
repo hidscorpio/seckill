@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/seckill.iml" filepath="$PROJECT_DIR$/seckill.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seckill-eureka/seckill-eureka.iml" filepath="$PROJECT_DIR$/seckill-eureka/seckill-eureka.iml" />
     </modules>
   </component>
 </project>
