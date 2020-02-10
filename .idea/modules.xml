@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/seckill.iml" filepath="$PROJECT_DIR$/seckill.iml" />
       <module fileurl="file://$PROJECT_DIR$/seckill-eureka/seckill-eureka.iml" filepath="$PROJECT_DIR$/seckill-eureka/seckill-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seckill-pay/seckill-pay.iml" filepath="$PROJECT_DIR$/seckill-pay/seckill-pay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seckill-product/seckill-product.iml" filepath="$PROJECT_DIR$/seckill-product/seckill-product.iml" />
     </modules>
   </component>
 </project>
