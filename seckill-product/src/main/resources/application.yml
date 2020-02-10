@@ -1,6 +1,6 @@
 spring:
   application:
-    name: product
+    name: seckill-product
 server:
   port: 11021
 eureka:
@@ -13,3 +13,18 @@ eureka:
     service-url:
       defaultZone: http://localhost:11001/eureka/
 
+swagger:
+  # 是否启用swagger，默认：true
+  enabled: true
+  # swagger扫描的基础包，默认：全扫描
+  base-package: com.scorpio.product.controller
+  # 需要处理的基础URL规则，默认：/**
+  base-path: /**
+  # 描述
+  description: 产品接口
+  # 需要排除的URL规则，默认：空
+  # exclude-path: /error
+  # 标题
+  title: com.scorpio.product.controller
+  # 版本
+  version: 0.0.1-SNAPSHOT
