@@ -1,6 +1,10 @@
 spring:
   application:
     name: seckill-product
+  datasource:
+    url: jdbc:mysql:///seckill?useUnicode=true&characterEncoding=UTF8&useSSL=true
+    username: root
+    password: root
 server:
   port: 11021
 eureka:
@@ -28,3 +32,11 @@ swagger:
   title: com.scorpio.product.controller
   # 版本
   version: 0.0.1-SNAPSHOT
+
+mybatis:
+  basepackage: com.scorpio.product.mapper
+  mapperLocations: classpath:mapper/**/*.xml
+logging:
+  level:
+    tk.mybatis: DEBUG
+    com.scorpio.product: DEBUG

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.scorpio.product.mapper.ProductMapper" >
+    <resultMap id="BaseResultMap" type="com.scorpio.product.domain.ProductPO" >
+        <!--
+          WARNING - @mbggenerated
+          private Integer id;
+    private String name;
+    private Double price;
+    private Integer status;
+    private Date createTime;
+        -->
+        <id column="id" property="id" jdbcType="INTEGER" />
+        <result column="name" property="name" jdbcType="VARCHAR" />
+        <result column="price" property="price" jdbcType="DOUBLE" />
+        <result column="status" property="status" jdbcType="INTEGER" />
+        <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+    </resultMap>
+</mapper>
